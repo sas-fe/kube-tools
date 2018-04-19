@@ -5,4 +5,4 @@ RUN apk update \
  && apk add curl jq \
  && rm -rf /var/cache/apk/*
 
-ENTRYPOINT ["/bin/sh"]
+CMD ["/bin/sh"]
